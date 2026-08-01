@@ -186,15 +186,4 @@ Frontend starts at **http://localhost:5173**
 - ✅ Employee notified when leave is approved/rejected
 - 👤 Admin notified when new employee registers
 
----
 
-## 💡 Viva-Ready Extension Points
-
-| Examiner Question | How to Extend |
-|------------------|---------------|
-| "Add leave balance" | Add `leaveBalance` column to User |
-| "Add half-day leave" | Add `HALF_DAY` to LeaveType enum |
-| "Add leave type filter" | Already supported via `leaveType` param |
-| "Add audit log" | Create AuditLog entity + AOP |
-| "Add Excel export" | Add Apache POI dependency |
-| "Add charts" | Add recharts to frontend |
